@@ -89,7 +89,6 @@ namespace COMP123_S2019_Lesson8B
         private void NameTextBox_TextChanged(object sender, EventArgs e)
         {
             SubmitButton.Enabled = (NameTextBox.Text.Length < 2) ? false : true;
-           
         }
     }
 }
